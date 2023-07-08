@@ -1,0 +1,6 @@
+/home/hamzarehmansheikh4/DevOps/Projects/java app on minikube/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/ProductServiceApplication.java
+/home/hamzarehmansheikh4/DevOps/Projects/java app on minikube/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/resources/ProductResource.java
+/home/hamzarehmansheikh4/DevOps/Projects/java app on minikube/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/model/Product.java
+/home/hamzarehmansheikh4/DevOps/Projects/java app on minikube/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/services/ProductService.java
+/home/hamzarehmansheikh4/DevOps/Projects/java app on minikube/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/healthchecks/BasicHealthCheck.java
+/home/hamzarehmansheikh4/DevOps/Projects/java app on minikube/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/configuration/ProductServiceConfiguration.java

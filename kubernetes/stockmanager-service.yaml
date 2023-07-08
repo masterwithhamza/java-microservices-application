@@ -20,11 +20,10 @@ kind: Deployment
 metadata:
   name: stockmanager
 spec:
-  spec:
   selector:
     matchLabels:
       app: stockmanager
-  replicas: 1
+  replicas: 5
   template:
     metadata:
       labels:
@@ -32,7 +31,7 @@ spec:
     spec:
       containers:
       - name: stockmanager
-        image: thetips4you/stockmanager:latest
+        image: hamzarehmansheikh4/stockmanager:latest
         ports:
         - containerPort: 8030
         livenessProbe:

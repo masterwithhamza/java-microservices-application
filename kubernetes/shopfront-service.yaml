@@ -23,7 +23,7 @@ spec:
   selector:
     matchLabels:
       app: shopfront
-  replicas: 1
+  replicas: 5
   template:
     metadata:
       labels:
@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: shopfront
-        image: thetips4you/shopfront:latest
+        image: hamzarehmansheikh4/shopfront:latest
         ports:
         - containerPort: 8010
         livenessProbe:

@@ -23,7 +23,7 @@ spec:
   selector:
     matchLabels:
       app: productcatalogue
-  replicas: 1
+  replicas: 5
   template:
     metadata:
       labels:
@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: productcatalogue
-        image: thetips4you/productcatalogue:latest
+        image: hamzarehmansheikh4/productcatalogue:latest
         ports:
         - containerPort: 8020
         livenessProbe:
